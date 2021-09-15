@@ -1,0 +1,1 @@
+This is a plain and basic recipe page. Nothing fancy.
