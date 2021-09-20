@@ -3,9 +3,37 @@ body {
     background: linear-gradient(297deg, rgba(2,0,36,1) 0%, rgba(73,204,144,1) 29%, rgba(0,212,255,1) 100%); 
 
     background: rgb(84,209,98);
-    background: linear-gradient(297deg, rgba(84,209,98,1) 0%, rgba(168,84,176,1) 34%, rgba(86,182,223,1) 100%); 
+    background: linear-gradient(297deg, rgba(84,209,98,1) 0%, rgba(168,84,176,1) 34%, rgba(86,182,223,1) 100%);
+
+    font-family: Verdana, sans-serif;
+    
 }
 
 h1 {
     text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    border-bottom: 2px solid black;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.home-list {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.home-list li {
+    border: 2px solid black;
+    width: 20%;
+    margin: 100px;
+    text-align: center;
+    float: left;
+}
+
